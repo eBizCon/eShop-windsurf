@@ -97,3 +97,13 @@ This mix is well-suited for small demo slices: UI, API, auth, messaging, and dis
 
 ### C) Cross-cutting slice: chatbot feature flag + fallback
 - Demonstrates config + UX + service wiring
+
+
+
+
+
+--------------------
+USE CASES Patrick:
+
+Dashboard Analytics -> Figma
+Migrate from razor to sveltekit
