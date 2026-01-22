@@ -26,6 +26,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    ignoreHTTPSErrors: true,
     ...devices['Desktop Chrome'],
   },
 
@@ -91,5 +92,7 @@ export default defineConfig({
     stderr: 'pipe',
     stdout: 'pipe',
     timeout: process.env.CI ? (5 * 60_000) : 60_000,
+    ignoreHTTPSErrors: true
+
   },
 });
