@@ -27,7 +27,7 @@ This mix is well-suited for small demo slices: UI, API, auth, messaging, and dis
 - Demo value: small refactor + immediate UI impact.
 
 ### 2) Add catalog sorting (UI + API light)
-- Goal: add a `sort` query parameter (`name`, `priceAsc`, `priceDesc`) and a UI dropdown.
+Ich möchte in der Katalog ansicht die Einträge nach name preis asc und preis desc filtern können. Die Filterung soll in der UI konsistent wie der Brand Filter aussehen und bedienbar sein
 
 ### 3) Stock / out-of-stock badge + disable add-to-cart when unavailable
 - Goal: show stock status and prevent adding when `AvailableStock == 0`.
