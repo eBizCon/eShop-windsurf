@@ -1,0 +1,19 @@
+name: eShop Pull Request Validation - .NET MAUI (DISABLED)
+
+# This workflow is disabled as MAUI has been removed from the project
+# The file is kept for reference purposes
+# Originally defined in pr-validation-maui.yml
+
+on:
+  workflow_dispatch:  # Only manual trigger now
+
+jobs:  
+  test:
+    runs-on: windows-latest    
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET (global.json)
+        uses: actions/setup-dotnet@v3
+
+      - name: Echo disabled message
+        run: echo "This workflow has been disabled as MAUI components have been removed from the project."
