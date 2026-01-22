@@ -28,12 +28,6 @@ This mix is well-suited for small demo slices: UI, API, auth, messaging, and dis
 
 ### 2) Add catalog sorting (UI + API light)
 - Goal: add a `sort` query parameter (`name`, `priceAsc`, `priceDesc`) and a UI dropdown.
-- Scope: small API change + small UI change.
-- Touch points:
-  - [src/Catalog.API/Apis/CatalogApi.cs](cci:7://file:///Users/pathenk/repo/windsurf-pov/eShop-windsurf/src/Catalog.API/Apis/CatalogApi.cs:0:0-0:0) ([GetAllItems](cci:1://file:///Users/pathenk/repo/windsurf-pov/eShop-windsurf/src/Catalog.API/Apis/CatalogApi.cs:122:4-158:5))
-  - [src/WebApp/Components/Pages/Catalog/Catalog.razor](cci:7://file:///Users/pathenk/repo/windsurf-pov/eShop-windsurf/src/WebApp/Components/Pages/Catalog/Catalog.razor:0:0-0:0) (query param + UI)
-  - possibly catalog search component used by the page (`CatalogSearch`)
-- Demo value: cross-project change (API + frontend) with clear acceptance criteria.
 
 ### 3) Stock / out-of-stock badge + disable add-to-cart when unavailable
 - Goal: show stock status and prevent adding when `AvailableStock == 0`.

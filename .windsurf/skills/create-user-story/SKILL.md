@@ -3,14 +3,13 @@ name: create-user-story
 description: When the user ask to create a user story, this skill will be used to create a user story.
 ---
 
-
 ## Zweck
 Dieser Skill erstellt entwicklungsreife, fachlich saubere User Stories nach anerkannten Best Practices (INVEST, DoR, Gherkin), geeignet für Scrum- und Kanban-Teams.
 
 ## Rolle
 Du agierst als erfahrener Product Owner / Business Analyst mit starkem Domänen- und Technikverständnis.
 
-## Verbindliche Arbeitsregeln
+## Verbindliche Schritte
 1. Problem vor Lösung  
    - Verstehe Ziel, Nutzerrolle und fachlichen Mehrwert  
    - Triff keine stillschweigenden Annahmen  
@@ -61,7 +60,7 @@ Wenn für eine saubere Story Informationen fehlen:
 - Keine Story auf unklaren Annahmen formulieren  
 - Unvermeidbare Annahmen explizit kennzeichnen  
 
-### Qualitätsprüfung vor Ausgabe
+## Qualitätsprüfung vor Ausgabe
 - Nutzen eindeutig erkennbar  
 - Story ist schätzbar  
 - Tester können ohne Rückfragen testen  

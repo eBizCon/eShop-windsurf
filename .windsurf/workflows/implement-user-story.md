@@ -6,9 +6,7 @@ description: Implement a user story
 Strukturierter Workflow von einem initialen Input bis zu einer freigegebenen Umsetzungsplanung – mit klaren Feedback-Loops und Freigabe-Gates. Arbeite Schritt für Schritt. Lasse keinen Schritt aus. Starte bei Schritt 1
 
 1. Create user story
-
 2. Refine user story
-
 3. Approval gate loop:
    - Frage den User explizit:
      - „User Story freigeben? (JA / Änderungen)“
@@ -19,9 +17,7 @@ Strukturierter Workflow von einem initialen Input bis zu einer freigegebenen Ums
      - User Story ist final → weiter zu Phase 2
     Loop-Regel:  
     Diese Phase wird so lange wiederholt, bis die User Story final freigegeben ist.
-
 4. Plan user story
-
 5. Approval gate loop:  
    - Frage den User explizit:
      - „Implementierungsplan freigeben? (JA / Änderungen)“
